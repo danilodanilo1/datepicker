@@ -1,0 +1,147 @@
+.wrapper-home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.datepicker {
+  width: 40%;
+  background: #cecece;;
+  box-shadow: 0px 1px 2px rgba(0, 14, 51, 0.25);
+  border-radius: 16px;
+  padding: 1vw;
+}
+.image-button {
+  box-shadow: 0px 1px 1px rgba(0, 14, 51, 0.05);
+  border-radius: 80px;
+  cursor: pointer;
+  width: 3vw;
+}
+
+.image-button h1 {
+  font-family: "Lexend";
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  color: #141414;
+}
+
+.title-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1vw;
+}
+
+.week-days {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  text-align: center;
+}
+.week-days h1 {
+  font-size: 2vw;
+  font-family: "Lexend", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.all-days {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.day {
+  display: grid;
+  grid-template-columns: 1fr;
+  text-align: center;
+  align-items: center;
+  height: 50px;
+  font-size: 1.4vw;
+  background: #ffffff;
+  box-shadow: 0px 1px 1px rgba(0, 14, 51, 0.05);
+  border-radius: 6px;
+  margin: 2px;
+  font-family: "Lexend", sans-serif;
+  font-style: normal;
+  color: #1f1f1f;
+  font-weight: bold;
+}
+.today {
+  display: grid;
+  grid-template-columns: 1fr;
+  text-align: center;
+  align-items: center;
+  height: 50px;
+  font-size: 1.4vw;
+  background: #050ebf;
+  box-shadow: 0px 1px 1px rgba(0, 14, 51, 0.05);
+  border-radius: 6px;
+  margin: 2px;
+  font-family: "Lexend", sans-serif;
+  font-style: normal;
+  color: #fff;
+  font-weight: bold;
+}
+.today:hover {
+  background: #4d55e1;
+  cursor: pointer;
+}
+
+.day:hover{
+  cursor: pointer;
+}
+
+.day-selected{
+  display: grid;
+  grid-template-columns: 1fr;
+  text-align: center;
+  align-items: center;
+  height: 50px;
+  font-size: 1.4vw;
+  background: greenyellow;
+  box-shadow: 0px 1px 1px rgba(0, 14, 51, 0.05);
+  border-radius: 6px;
+  margin: 2px;
+  font-family: "Lexend", sans-serif;
+  font-style: normal;
+  color: #fff;
+  font-weight: bold;
+}
+
+.day-selected:hover{
+  cursor: pointer;
+}
+
+.day-0 {
+  color: #cecece;;
+}
+.day:hover {
+  background-color: #f6f6f6;
+}
+
+
+.form{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.form button{
+  width: 20%;
+  height: 3vw;
+  border-radius: 16px;
+  border: none;
+  outline: none;
+  background-color: greenyellow;
+  font-size: 2vw;
+  cursor: pointer;
+}
+
+.form button:hover{
+  transform: scale(1.1);
+}

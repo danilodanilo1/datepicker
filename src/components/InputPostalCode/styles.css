@@ -1,0 +1,19 @@
+.wrapper-input{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 25px;
+}
+input{
+  width: 40%;
+  height: 3vw;
+  font-size: 2vw;
+  border-radius: 16px;
+  outline: none;
+  border: 1px solid greenyellow;
+}
+
+input:invalid:focus {
+  background-image: red;
+}
